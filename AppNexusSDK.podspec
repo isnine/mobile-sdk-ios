@@ -42,7 +42,7 @@ DESC
 
   s.subspec 'FacebookCSRAdapter' do |subspec|
     subspec.dependency  'AppNexusSDK/AppNexusSDK', "#{s.version}"
-    subspec.dependency 'FBAudienceNetwork', '6.15.0'
+    subspec.dependency 'FBAudienceNetwork', '6.15.1'
     subspec.source_files         = "csr/Facebook/*.{h,m}"
     subspec.public_header_files  = "csr/Facebook/*.h"
     subspec.xcconfig              = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/FBAudienceNetwork/**' }
